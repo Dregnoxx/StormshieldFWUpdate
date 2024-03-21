@@ -14,5 +14,5 @@ This script is designed for SN160 ,200, 210, 220, 310, 320, 510, and 710 series.
 
 # Installation
 In your Task Manager create a new task, add the name, planify when you want to execute it, and in action specify:
-Start a program:  %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
-In argument add:  -file C:\YOURROOTFOLDER\SN210.ps1 -User USERNAME -PSWD PASSWORD -IP 1.2.3.4 -Client CLIENT_NAME
+-  Start a program:  `%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe`
+-  In argument add:  `-file C:\YOURROOTFOLDER\SN210.ps1 -User USERNAME -PSWD PASSWORD -IP 1.2.3.4 -Client CLIENT_NAME`
