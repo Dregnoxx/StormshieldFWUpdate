@@ -39,7 +39,7 @@ $WSCPLogin = "$User"+":"+"$PSWD"
 
 ## LOG Firewall version + Date in the format day, month, year, hour, minute
 $date = Get-Date -Format "dd-MM-yyyy-HH-mm"
-$logfile = "C:\MAJStormshield\LOG\" + $Client+ "-" + $date + ".LOG"
+$logfile = "C:\YOURROOTFOLDER\LOG\" + $Client+ "-" + $date + ".LOG"
 
 
 Get-SSHTrustedHost | Remove-SSHTrustedHost 
@@ -48,7 +48,7 @@ Get-SSHTrustedHost | Remove-SSHTrustedHost
 ADD-content -path $logfile -value "------------------------------------------"
 ADD-content -path $logfile -value "WINSCP upload"
 ADD-content -path $logfile -value "------------------------------------------"
-C:\MAJStormshield\WinSCP.com /command "open $WSCPLogin@$IPSSH -certificate=*" "put C:\MAJStormshield\FichierMAJ\LATESTSN210.maj /usr/Firewall/" "exit" | Out-File $logfile -Append -encoding UTF8
+C:\YOURROOTFOLDER\WinSCP.com /command "open $WSCPLogin@$IPSSH -certificate=*" "put C:\YOURROOTFOLDER\FichierMAJ\LATESTSN210.maj /usr/Firewall/" "exit" | Out-File $logfile -Append -encoding UTF8
 ADD-content -path $logfile -value ""
 
 ### SSH connection + update
