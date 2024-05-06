@@ -13,7 +13,7 @@ Created by Dregnoxx:
 # IMPORTANT
 Dont forget to create a subfolder where you will host the update file.
 In the sript the default name is "FichierMAJ".
-In the subfolder, I recommend you to always rename the update LATESTXXX.maj and overwirete each time you put another .maj file.
+In the subfolder, I recommend you to always rename the update LATESTXXX.maj and overwrite each time you put another .maj file.
 Example: LATESTSN210.maj for every SN210 firewall.
 
 # Compatibility
