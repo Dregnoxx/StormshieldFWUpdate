@@ -10,7 +10,11 @@ Created by Dregnoxx:
 - [Posh-SSH](https://github.com/darkoperator/Posh-SSH) (Install using `Install-Module -Name Posh-SSH`, in a Powershell window)
 - Your root folder should look like this:
 ![image](https://github.com/Dregnoxx/StormshieldFWUpdate/assets/40840621/f685a5a4-35e9-42c1-a190-c9a8db428515)  
-
+# IMPORTANT
+Dont forget to create a subfolder where you will host the update file.
+In the sript the default name is "FichierMAJ".
+In the subfolder, I recommend you to always rename the update LATESTXXX.maj and overwirete each time you put another .maj file.
+Example: LATESTSN210.maj for every SN210 firewall.
 
 # Compatibility
 This script is designed for SN160 ,200, 210, 220, 310, 320, 510, and 710 series. It has not been tested on other models.
