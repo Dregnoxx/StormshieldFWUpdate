@@ -1,6 +1,6 @@
 ### Stormshield Firewall Updater
 
-This PowerShell script, is provided as-is, with no warranty or support.
+This PowerShell script, is provided as-is, with no warranty.
 Created by Dregnoxx:
 [Dregnoxx.tech](https://dregnoxx.tech) 
 [@dregnoxx](https://twitter.com/dregnoxx).
